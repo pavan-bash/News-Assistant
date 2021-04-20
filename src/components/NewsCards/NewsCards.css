@@ -1,0 +1,29 @@
+.commandContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+.commandCard {
+  border-radius: 8px;
+  background-color: purple;
+  color: white;
+  margin: 1rem;
+  padding: 0.5rem;
+  height: 12rem;
+  width: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 0 0.5rem rgb(144, 51, 144);
+  text-align: center;
+}
+
+.commandCard .command {
+  font-size: larger;
+}
+
+.commandCard .commandTitle {
+  font-weight: 700;
+}
