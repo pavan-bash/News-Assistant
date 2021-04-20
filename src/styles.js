@@ -1,8 +1,8 @@
 import { makeStyles } from "@material-ui/core/styles";
 
-export default makeStyles({
+export default makeStyles((theme) => ({
   backdrop: {
-    zIndex: 1000,
+    zIndex: theme.zIndex.drawer + 1,
     color: "#fff",
   },
   loadingIcon: {
@@ -61,4 +61,4 @@ export default makeStyles({
       margin: "1rem",
     },
   },
-});
+}));
